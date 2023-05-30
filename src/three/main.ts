@@ -100,6 +100,7 @@ module BP3D.Three {
 
       var lights = new Three.Lights(scene, model.floorplan);
 
+      // @ts-ignore
       floorplan = new Three.Floorplan(scene,
         model.floorplan, scope.controls);
 
